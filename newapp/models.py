@@ -8,4 +8,4 @@ class soccer(models.Model):
     backnumber = models.CharField(max_length = 10)
     coach = models.CharField(max_length = 10)
     salary = models.CharField(max_length = 10)
-    insentive = models.CharField(max_length = 10)
+    incentive = models.CharField(max_length = 10)
