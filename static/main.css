@@ -1,0 +1,54 @@
+.player_input {
+    width: 800px;
+}
+
+.bgred{
+    background-color: red;
+}
+
+.basedivbox{
+    width: 80%;
+    height: 800px;
+    background-color: aquamarine;
+}
+
+.headbox{
+    width: 50%;
+    height: 100px;
+    background-color: yellow;
+}
+
+.leftbox{
+    width: 300px;
+    height: 600px;
+    background-color: blueviolet;
+    float: left;
+}
+
+.rightbox{
+    width: 200px;
+    height: 600px;
+    background-color: chocolate;
+    float: right;
+}
+
+.bottombox{
+    width: 500px;
+    height: 100px;
+    background-color: darkgreen;
+    clear: both;
+}
+
+.howmuchform{
+   width: 100%;
+}
+
+.howmuchinput{
+    width: 50%;
+    float: left;
+}
+
+.howmuchbtn{
+    width: 50%;
+    float: left;
+}

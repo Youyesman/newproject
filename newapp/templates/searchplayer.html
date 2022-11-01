@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include 'base/head.html'%}
+    <title>Document</title>
+</head>
+<body>
+
+    {% include 'base/navbar.html'%}
+
+    <p>축구선수검색</p>
+    <form method="post">
+        {% csrf_token %}
+    <input type="text" name="name" placeholder="축구선수이름">
+    <input type="text" name="backnumber" placeholder="백넘버">
+    <button type="submit">찾기</button>
+    </form>
+
+
+    {% for 축구선수 in 축구선수출력 %}
+    {{축구선수.name}} / {{축구선수.team}}
+    {% endfor %}
+
+</body>
+</html>
